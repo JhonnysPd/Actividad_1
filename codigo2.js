@@ -2,7 +2,7 @@
 var num = parseInt(prompt("Digite un numero entre 1 y 20",""));
 var salida='';
 
-for(var i=1; i<=20; i++){
+for(var i=num; i<=20; i++){
     salida+='<tr><td>'+i + '</td><td>'+ valorEsp(i) +'</td><td>'+ valorIng(i) +'</td></tr>';
 }
 
