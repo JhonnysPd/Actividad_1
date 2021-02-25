@@ -2,9 +2,16 @@
 var num = parseInt(prompt("Digite un numero entre 1 y 20",""));
 var salida='';
 
-for(var i=num; i<=20; i++){
-    salida+='<tr><td>'+i + '</td><td>'+ valorEsp(i) +'</td><td>'+ valorIng(i) +'</td></tr>';
+
+if (num > 20){
+    alert('El número es mayor que "20"');
+    alert('Actualice la página e intente nuevamente')
+}else {
+    for(var i=1; i<=num; i++){
+        salida+='<tr><td>'+i + '</td><td>'+ valorEsp(i) +'</td><td>'+ valorIng(i) +'</td></tr>';
+    }
 }
+
 
 document.getElementById("tabla2").innerHTML=salida;
 
