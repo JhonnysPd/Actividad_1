@@ -13,9 +13,9 @@ while (numero != 0){
     numero = parseInt(prompt('Ingresa un número, introduzca "0" para finalizar la serie',''));
 }
 
-salida += "<tr><td><center>"+ "Total números ingresados: " + contar + "</center></td></tr>";
-salida += "<tr><td><center>"+"Suma de numeros ingresados: "+ suma + "</center></td></tr>";
-salida += "<tr><td><center>"+ "Promedio: " + suma/contar + "</center></td></tr>";
+salida += "<tr><td>"+ "Total números ingresados: " + contar + </td></tr>";
+salida += "<tr><td>"+"Suma de numeros ingresados: "+ suma + </td></tr>";
+salida += "<tr><td>"+ "Promedio: " + suma/contar + </td></tr>";
 
 
 document.getElementById("tabla3").innerHTML = salida;

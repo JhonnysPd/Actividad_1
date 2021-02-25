@@ -39,6 +39,7 @@ table {
 td, th {
     padding: 10px 50px;
     color: #101010;
+    text-align: center;
 }
 th{
     background: #009ddc;
